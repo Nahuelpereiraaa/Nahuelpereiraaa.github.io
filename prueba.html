@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Nahuel Pereira y Andres Silva">
+    <meta name="description" content="Página de ejemplo con etiquetas HTML">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nahuel Pereira y Andres Silva</title>
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenidos a la página de Andres y Nahuel</h1>
+        <nav>
+            <ul>
+                <li><a href="#colores">Colores</a></li>
+                <li><a href="#tabla">Tabla</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2 id="colores">Ejemplos de Formato</h2>
+
+            <p><b>Texto en negrita</b></p>
+            <p><u>Texto subrayado</u></p>
+            <p><i>Texto en cursiva</i></p>
+            <p><s>Texto tachado</s></p>
+            <p><mark>Texto resaltado</mark></p>
+            <p>Fórmula química: H<sub>2</sub>O</p>
+            <p>Exponente: x<sup>2</sup></p>
+            <p>Cita: <cite>El Quijote</cite></p>
+
+            <h3>Imágenes</h3>
+            <img src="colores/amarillo.gif" alt="Color Amarillo" width="150" />
+            <img src="colores/azul.jpg" alt="Color Azul" width="150" />
+            <img src="colores/rojo.png" alt="Color Rojo" width="150" />
+        </section>
+
+        <section id="tabla">
+            <h2>Tabla de Colores</h2>
+            <table border="1">
+                <tr>
+                    <th>Color</th>
+                    <th>Imagen</th>
+                </tr>
+                <tr>
+                    <td><a href="amarillo.html">Amarillo</a></td>
+                    <td><a href="amarillo.html"><img src="colores/amarillo.gif" width="100" alt="Amarillo" /></a></td>
+                </tr>
+                <tr>
+                    <td><a href="azul.html">Azul</a></td>
+                    <td><a href="azul.html"><img src="colores/azul.jpg" width="100" alt="Azul" /></a></td>
+                </tr>
+                <tr>
+                    <td><a href="rojo.html">Rojo</a></td>
+                    <td><a href="rojo.html"><img src="colores/rojo.png" width="100" alt="Rojo" /></a></td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Listas</h2>
+
+            <h3>Lista Desordenada</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+
+            <h3>Lista Ordenada</h3>
+            <ol type="1">
+                <li>Inicio</li>
+                <li>Desarrollo</li>
+                <li>Final</li>
+            </ol>
+
+            <h3>Lista de Definiciones</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Lenguaje de marcado para la web</dd>
+                <dt>CSS</dt>
+                <dd>Hojas de estilo para diseño visual</dd>
+            </dl>
+        </section>
+
+        <section>
+            <h2>Entidades HTML</h2>
+            <p>Ejemplos: &aacute; &eacute; &iacute; &oacute; &uacute; &ntilde; &copy; &reg; &euro;</p>
+        </section>
+    </main>
+
+    <footer id="contacto">
+        <h2>Contacto</h2>
+        <address>
+            <p>Escrito por Nahuel Pereira y Andres Silva</p>
+            <p>Email: nahuel@example.com</p>
+            <p>Dirección: Av. Siempre Viva 742, Montevideo</p>
+        </address>
+    </footer>
+
+</body>
+</html>
